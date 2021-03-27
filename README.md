@@ -20,6 +20,7 @@
 - Componentizar o fetch API (iniciei mas tive que desfazer, faltou tempo pra debugar os erros do HTML)
 - Estilizar o CSS na mão (sempre foi desafiador, mas é divertido)
 - Ordenamento dos resultados (levaria mais tempo pra cumprir esse desafio)
+- Deploy no Heroku (queria ter feito mas faltou tempo)
 
 Obrigado pela oportunidade :rocket: :computer:
 

@@ -3,10 +3,10 @@
 ## Avaliado: Tiago Berwanger
 
 ### Requisitos técnicos
-- [x]Não utilizar frameworks React, Vue, Angular, etc.
+- [x] Não utilizar frameworks React, Vue, Angular, etc.
 - <del> É obrigatório o uso de rotas. </del>
-- [x]Pode usar jquery, porém Fetch API é mais legal.
-- [x]O layout deve ser responsivo, seguindo os padrões Bootstrap.
+- [x] Pode usar jquery, porém Fetch API é mais legal.
+- [x] O layout deve ser responsivo, seguindo os padrões Bootstrap.
 
 ### Requisitos de negócio
 - [x] Eu, como usuário, consigo buscar por um usuário do GitHub;

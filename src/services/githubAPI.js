@@ -1,11 +1,7 @@
 const fetchUsername = (username) => {
-  fetch(`https://api.github.com/users/${username}`)
-  .then(response => response.json())
-  .then(data => {
-    console.log(data)
-  })
-  .catch(error => console.error(error))
+
 } 
+
 
 const fetchUsernameRepos = (username) => {
   fetch(`https://api.github.com/users/${username}/repos`)

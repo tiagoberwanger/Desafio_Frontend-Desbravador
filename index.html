@@ -9,15 +9,17 @@
   <title>Desafio_Frontend</title>
 </head>
 <body>
+
   <div class="container">
     <header class="header">
       <h1>Github Search API</h1>
     </header>
+
     <div class="mb-3">
       <form id="username-form" autocomplete="off">
-        <h3>Github Username Search</h3>
+        <h3>Github Username</h3>
         <div class="form-group">
-          <input type="text" class="form-control" id="search-input" placeholder="Search Username" required>
+          <input type="text" class="form-control" id="usersearch-input" placeholder="Digite o usuário" required>
         </div>
         <div class="form-group">
           <button class="search-btn btn btn-info btn-block">
@@ -25,9 +27,25 @@
           </button>
         </div>
       </form>
-      <div id="result" class="result"></div>
+      <div id="result" class="user-result"></div>
     </div>
+
+    <div class="mb-3">
+      <form id="repos-form" autocomplete="off">
+        <h3>Github Repos</h3>
+        <div class="form-group">
+          <input type="text" class="form-control" id="repos-search-input" placeholder="Digite o usuário" required>
+        </div>
+        <div class="form-group">
+          <button class="search-btn btn btn-info btn-block">
+            Search Repositories
+          </button>
+        </div>
+      </form>
+      <div id="result" class="repos-result"></div>
+    </div>
+
   </div>
-  <script type="module" src="/src/script/scripts.js"></script>
+  <script src="/src/script/scripts.js"></script>
 </body>
 </html>

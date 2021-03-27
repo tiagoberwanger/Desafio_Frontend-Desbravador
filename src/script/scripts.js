@@ -1,18 +1,20 @@
+// Elementos do HTML
 const usernameForm = document.getElementById("username-form");
+const reposForm = document.getElementById("repos-form");
+const repoDetailForm = document.getElementById("repo-detail-form")
 
-const searchButton = document.getElementById("search-btn");
-
+// Ferramenta de busca de usuários
 usernameForm.addEventListener("submit", function(e) {
   e.preventDefault();
 
-  const searchInput = document.getElementById('search-input').value;
-  const formatedName = searchInput.split(' ').join('');
+  const userSearchInput = document.getElementById('user-search-input').value;
+  const formatedName = userSearchInput.split(' ').join('');
 
   fetch(`https://api.github.com/users/${formatedName}`)
   .then(response => response.json())
   .then(data => {
     console.log(data)
-    document.getElementById('result').innerHTML = `
+    document.getElementById('user-result').innerHTML = `
     <div class="card">
       <img class="card-img-top" src=${data.avatar_url} alt="avatar">
       <div class="card-body">
@@ -29,3 +31,32 @@ usernameForm.addEventListener("submit", function(e) {
   })
   .catch(error => console.error(error))
 })
+
+// Ferramenta de listagem de repositórios
+reposForm.addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const reposSearchInput = document.getElementById('repos-search-input').value;
+  const formatedName = reposSearchInput.split(' ').join('');
+
+  fetch(`https://api.github.com/users/${formatedName}/repos`)
+  .then(response => response.json())
+  .then(data => {
+    console.log(data)
+    document.getElementById('repos-result').innerHTML = `
+    ${data.map((repo) => (
+      `
+      <ul class="list-group">
+      <li class="list-group-item">
+      ${repo.full_name}
+      </li>
+      </ul>
+      `
+    ))
+    }
+    `
+  })
+  .catch(error => console.error(error))
+})
+
+

@@ -15,6 +15,12 @@
 - <del> Eu, como usuário, consigo poder alterar a ordem da listagem de repositórios; </del>
 - [x] Eu, como usuário, consigo ver uma página com os detalhes de um repositório (nome, descrição, ,número de estrelas, linguagem e um link externo para a página do repositório no GitHub), que pode ser clicado na listagem dos repositórios;
 
+### Maiores desafios
+- Usar javascript puro sem framework (costume em usar React para fazer as rotas)
+- Componentizar o fetch API (iniciei mas tive que desfazer, faltou tempo pra debugar os erros do HTML)
+- Estilizar o CSS na mão (sempre foi desafiador, mas é divertido)
+- Ordenamento dos resultados (levaria mais tempo pra cumprir esse desafio)
+
 Obrigado pela oportunidade :rocket: :computer:
 
 [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/lucasgdb)](https://github.com/tiagoberwanger)

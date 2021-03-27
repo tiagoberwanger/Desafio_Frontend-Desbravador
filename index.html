@@ -19,7 +19,7 @@
       <form id="username-form" autocomplete="off">
         <h3>Github Username</h3>
         <div class="form-group">
-          <input type="text" class="form-control" id="usersearch-input" placeholder="Digite o usuário" required>
+          <input type="text" class="form-control" id="user-search-input" placeholder="Digite o usuário" required>
         </div>
         <div class="form-group">
           <button class="search-btn btn btn-info btn-block">
@@ -27,7 +27,7 @@
           </button>
         </div>
       </form>
-      <div id="result" class="user-result"></div>
+      <div id="user-result" class="user-result"></div>
     </div>
 
     <div class="mb-3">
@@ -42,10 +42,26 @@
           </button>
         </div>
       </form>
-      <div id="result" class="repos-result"></div>
+      <div id="repos-result" class="repos-result"></div>
     </div>
 
+    <div class="mb-3">
+      <form id="repo-detail-form" autocomplete="off">
+        <h3>Busque por detalhes de um repositório</h3>
+        <div class="form-group">
+          <input type="text" class="form-control" id="repo-detail-username" placeholder="Digite o usuário" required>
+          <input type="text" class="form-control" id="repo-detail-search-input" placeholder="Digite o repositório" required>
+        </div>
+        <div class="form-group">
+          <button class="search-btn btn btn-info btn-block">
+            Search Repository
+          </button>
+        </div>
+      </form>
+      <div id="repo-detail-result" class="repos-result"></div>
+    </div>
   </div>
-  <script src="/src/script/scripts.js"></script>
+
+  <script type="module" src="/src/script/scripts.js"></script>
 </body>
 </html>

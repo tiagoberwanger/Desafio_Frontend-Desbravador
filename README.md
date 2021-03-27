@@ -19,8 +19,7 @@
 - Usar javascript puro sem framework (costume em usar React para fazer as rotas)
 - Componentizar o fetch API (iniciei mas tive que desfazer, faltou tempo pra debugar os erros do HTML)
 - Estilizar o CSS na mão (sempre foi desafiador, mas é divertido)
-- Ordenamento dos resultados (levaria mais tempo pra cumprir esse desafio)
-- Deploy no Heroku (queria ter feito mas faltou tempo)
+- Ordenamento dos resultados e deploy (levaria mais tempo pra cumprir esses desafios)
 
 Obrigado pela oportunidade :rocket: :computer:
 

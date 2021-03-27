@@ -9,15 +9,16 @@
   <title>Desafio_Frontend</title>
 </head>
 <body>
-
   <div class="container">
-    <header class="header">
-      <h1>Github Search API</h1>
-    </header>
-
+    <div class="hero-image">
+      <header class="header">
+        <h1>Github Search API</h1>
+      </header>
+    </div>
+    
     <div class="mb-3">
       <form id="username-form" autocomplete="off">
-        <h3>Github Username</h3>
+        <h3>Busca por usuário</h3>
         <div class="form-group">
           <input type="text" class="form-control" id="user-search-input" placeholder="Digite o usuário" required>
         </div>
@@ -32,7 +33,7 @@
 
     <div class="mb-3">
       <form id="repos-form" autocomplete="off">
-        <h3>Github Repos</h3>
+        <h3>Repositórios</h3>
         <div class="form-group">
           <input type="text" class="form-control" id="repos-search-input" placeholder="Digite o usuário" required>
         </div>
@@ -47,7 +48,7 @@
 
     <div class="mb-3">
       <form id="repo-detail-form" autocomplete="off">
-        <h3>Busque por detalhes de um repositório</h3>
+        <h3>Detalhes de um repositório</h3>
         <div class="form-group">
           <input type="text" class="form-control" id="repo-detail-username" placeholder="Digite o usuário" required>
           <input type="text" class="form-control" id="repo-detail-search-input" placeholder="Digite o repositório" required>
@@ -58,7 +59,7 @@
           </button>
         </div>
       </form>
-      <div id="repo-detail-result" class="repos-result"></div>
+      <div id="repo-detail-result" class="repo-detail-result"></div>
     </div>
   </div>
 

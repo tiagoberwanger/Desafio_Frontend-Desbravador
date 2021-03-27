@@ -1,14 +1,14 @@
-# Desafio_Frontend-Desbravador
+# Desafio Frontend - Desbravador
 
 ## Avaliado: Tiago Berwanger
 
-### Requisitos técnicos
+### Requisitos técnicos realizados
 - [x] Não utilizar frameworks React, Vue, Angular, etc.
 - <del> É obrigatório o uso de rotas. </del>
 - [x] Pode usar jquery, porém Fetch API é mais legal.
 - [x] O layout deve ser responsivo, seguindo os padrões Bootstrap.
 
-### Requisitos de negócio
+### Requisitos de negócio realizados
 - [x] Eu, como usuário, consigo buscar por um usuário do GitHub;
 - [x] Eu, como usuário, consigo ver os detalhes do usuário buscado (número de seguidores, número de seguidos, imagem do avatar, e-mail e bio);
 - <del> Eu, como usuário, consigo ver a listagem dos repositórios desse usuário que foi buscado, ordenados pelo número decrescente de estrelas; </del>
